@@ -14,7 +14,7 @@ This combines Monzo with a Google Drive folder that scans for new receipt images
 ![Diagram](App_service_Monzo_Receipt_Matcher.PNG)
 
 
-## K8s Integration
+## Kubernetes Integration
 
 This application is Docker friendly. When run with Kubernetes a health check is added to check that the connection to the service bus is working and will restart the pod if an error is found.
 
